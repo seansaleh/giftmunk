@@ -3,6 +3,8 @@ Giftmunk::Application.routes.draw do
 
   match "/auth/facebook/callback" => "sessions#create"
 
+  get "/recommendations" => "recommendations#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
