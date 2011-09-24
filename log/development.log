@@ -2,3 +2,47 @@
 
 Started GET "/assets/rails.png" for 127.0.0.1 at Fri Sep 23 23:12:33 -0700 2011
 Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:15:13 -0700 2011
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:16:48 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (2.9ms)
+Compiled application.css  (2ms)  (pid 57963)
+Compiled main.css  (5ms)  (pid 57963)
+Compiled application.js  (8ms)  (pid 57963)
+Compiled jquery.js  (10ms)  (pid 57963)
+Compiled jquery_ujs.js  (2ms)  (pid 57963)
+Compiled main.js  (215ms)  (pid 57963)
+Completed 200 OK in 386ms (Views: 385.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /main.css - 200 OK (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /jquery.js - 200 OK (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /jquery_ujs.js - 200 OK (22ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /main.js - 200 OK (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
+Served asset /application.js - 200 OK (17ms)
