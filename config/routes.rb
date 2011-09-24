@@ -1,6 +1,8 @@
 Giftmunk::Application.routes.draw do
   root :to => "main#index"
 
+  match "/auth/facebook/callback" => "sessions#create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

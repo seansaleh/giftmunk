@@ -46,3 +46,863 @@ Served asset /main.js - 200 OK (14ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:16:49 -0700 2011
 Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:19:11 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:21:49 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:21:55 -0700 2011
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:24:16 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:24:17 -0700 2011
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Compiled application.css  (3ms)  (pid 57963)
+Compiled sessions.css  (3ms)  (pid 57963)
+Compiled application.js  (12ms)  (pid 57963)
+Compiled sessions.js  (238ms)  (pid 57963)
+Completed 200 OK in 305ms (Views: 304.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /sessions.js - 200 OK (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /sessions.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:27:35 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:27:36 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:27:36 -0700 2011
+Served asset /application.js - 200 OK (162ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:27:37 -0700 2011
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:28:06 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /jquery.js - 304 Not Modified (81ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /sessions.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /main.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /main.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:28:07 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:28:10 -0700 2011
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:29:24 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:29:26 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQCra-Qjsl2dRwou35N8m47G0cwK5XQiHYySNv2BDUv5qmK_zbCz6yQd-BWOnS4Hw6-HFUmEIYvF-q8NStHYOtJE3S70AqIiQP-uLH2EZhC7ZpaggroQHrBkeB1tiStQrK-ku0IE_LTbNKwet9o704BJ5pV9DbrR9j_xDG6bbWV5RA" for 127.0.0.1 at Sat Sep 24 08:29:41 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCra-Qjsl2dRwou35N8m47G0cwK5XQiHYySNv2BDUv5qmK_zbCz6yQd-BWOnS4Hw6-HFUmEIYvF-q8NStHYOtJE3S70AqIiQP-uLH2EZhC7ZpaggroQHrBkeB1tiStQrK-ku0IE_LTbNKwet9o704BJ5pV9DbrR9j_xDG6bbWV5RA"}
+Completed 500 Internal Server Error in 5ms
+
+RuntimeError (--- 
+user_info: 
+  name: Jonathan Mumm
+  urls: 
+    Facebook: http://www.facebook.com/jmumm
+    Website: 
+  nickname: jmumm
+  last_name: Mumm
+  image: http://graph.facebook.com/8649455/picture?type=square
+  first_name: Jonathan
+  email: jon@mumm.me
+uid: "8649455"
+credentials: 
+  token: AAADNrhY4EFkBAERjpl5E1wREQJIZAaQjwdYYgphDh39Hh4jv6jtjhNpR7FrrkpOOUAVcDdvhu6CQ14xivM5fA5RN2s6IZD
+extra: 
+  user_hash: 
+    name: Jonathan R Mumm
+    location: 
+      name: San Francisco, California
+      id: "114952118516947"
+    username: jmumm
+    timezone: -7
+    gender: male
+    id: "8649455"
+    last_name: Mumm
+    updated_time: 2011-09-23T03:46:28+0000
+    verified: true
+    locale: en_US
+    hometown: 
+      name: Compton, California
+      id: "108051695889877"
+    link: http://www.facebook.com/jmumm
+    email: jon@mumm.me
+    middle_name: R
+    first_name: Jonathan
+provider: facebook
+):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:36:52 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:36:53 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQC4UWUHYWgn5ldVoqNr9BEGzNrhxmiBVNjd-F5IUr3y9VoOf-ke4mbr6j6H1nq7Ra57UHq4Z5CyLCWBMw-ftYatoib7ej9NYfIf21iM2dhSnIyEnexUXjJiyqeBb1e76ie93g9VB2KcCqj47ZFuzgTFhy8F8CemJQ-UgfDjVjtmUA" for 127.0.0.1 at Sat Sep 24 08:36:55 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC4UWUHYWgn5ldVoqNr9BEGzNrhxmiBVNjd-F5IUr3y9VoOf-ke4mbr6j6H1nq7Ra57UHq4Z5CyLCWBMw-ftYatoib7ej9NYfIf21iM2dhSnIyEnexUXjJiyqeBb1e76ie93g9VB2KcCqj47ZFuzgTFhy8F8CemJQ-UgfDjVjtmUA"}
+Completed 500 Internal Server Error in 36ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20110924153049)
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110924153049')[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/auth/facebook/callback?code=AQC4UWUHYWgn5ldVoqNr9BEGzNrhxmiBVNjd-F5IUr3y9VoOf-ke4mbr6j6H1nq7Ra57UHq4Z5CyLCWBMw-ftYatoib7ej9NYfIf21iM2dhSnIyEnexUXjJiyqeBb1e76ie93g9VB2KcCqj47ZFuzgTFhy8F8CemJQ-UgfDjVjtmUA" for 127.0.0.1 at Sat Sep 24 08:37:31 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC4UWUHYWgn5ldVoqNr9BEGzNrhxmiBVNjd-F5IUr3y9VoOf-ke4mbr6j6H1nq7Ra57UHq4Z5CyLCWBMw-ftYatoib7ej9NYfIf21iM2dhSnIyEnexUXjJiyqeBb1e76ie93g9VB2KcCqj47ZFuzgTFhy8F8CemJQ-UgfDjVjtmUA"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1[0m
+Completed 500 Internal Server Error in 23ms
+
+NoMethodError (undefined method `name=' for #<User:0x108ff85a8>):
+  app/models/user.rb:6:in `create_with_omniauth'
+  app/models/user.rb:3:in `create_with_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /main.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:37:35 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:37:37 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQDRvJ74caDRtUgtfu5241lEomUOLdBXRHjf6s-NhhnqH_cEeqRDqPg3Tin-ZX8eIOYPeCi3DNZYxIkluThFGj_vLDrS1_fMhIoIcpfYGj4X5J8XxEmr-PA59BzpdTi968Lwt_OZTC1mlhYQDIRO_SRKvRJ9oq27EKJk3_KXdWPaCA" for 127.0.0.1 at Sat Sep 24 08:37:37 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDRvJ74caDRtUgtfu5241lEomUOLdBXRHjf6s-NhhnqH_cEeqRDqPg3Tin-ZX8eIOYPeCi3DNZYxIkluThFGj_vLDrS1_fMhIoIcpfYGj4X5J8XxEmr-PA59BzpdTi968Lwt_OZTC1mlhYQDIRO_SRKvRJ9oq27EKJk3_KXdWPaCA"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `name=' for #<User:0x108944518>):
+  app/models/user.rb:6:in `create_with_omniauth'
+  app/models/user.rb:3:in `create_with_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:40:23 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:24 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 40ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /jquery.js - 304 Not Modified (80ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /main.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /main.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:40:35 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:40:37 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQDWCU1WyN67G624yTzvkZBLDoq3JO5gVoLjm5ZuLPccALOqfURQBwxyyDA3Jiw1fYVU_qbbQ0lBDf_KnoO1UikCaz0xUWVOGbF0P1DoC1Si-VRdqpl749BZeFXJiehZ33Yb1qurWHGCoE-aR-3hwoRF_z0Vcg0sjaSy-nqxwBCr_Q" for 127.0.0.1 at Sat Sep 24 08:40:37 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDWCU1WyN67G624yTzvkZBLDoq3JO5gVoLjm5ZuLPccALOqfURQBwxyyDA3Jiw1fYVU_qbbQ0lBDf_KnoO1UikCaz0xUWVOGbF0P1DoC1Si-VRdqpl749BZeFXJiehZ33Yb1qurWHGCoE-aR-3hwoRF_z0Vcg0sjaSy-nqxwBCr_Q"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1[0m
+Completed 500 Internal Server Error in 51ms
+
+NoMethodError (undefined method `name=' for #<User:0x10d8a2d30>):
+  app/models/user.rb:6:in `create_with_omniauth'
+  app/models/user.rb:3:in `create_with_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20110924153049)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:43 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:41:44 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQAmRcS7ZcZRRbvSUR5H1wQlGDjxLNSkJyoR7-e4uLMg4Chr-IZx4bt4Hfuh8BWZizlaK7i_gqdFiqf4_FDLpmm8fGypF8fd2_agJR_gF5ncREbeHcEfyoiHK2XnvSH_a7trLbdldZ3KgcYIqKe8PvJWCAHTqXkHkU7pPhE1cH-fXw" for 127.0.0.1 at Sat Sep 24 08:41:45 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAmRcS7ZcZRRbvSUR5H1wQlGDjxLNSkJyoR7-e4uLMg4Chr-IZx4bt4Hfuh8BWZizlaK7i_gqdFiqf4_FDLpmm8fGypF8fd2_agJR_gF5ncREbeHcEfyoiHK2XnvSH_a7trLbdldZ3KgcYIqKe8PvJWCAHTqXkHkU7pPhE1cH-fXw"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1
+  [1m[36mSQL (13.4ms)[0m  [1mINSERT INTO "users" ("created_at", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 24 Sep 2011 15:41:46 UTC +00:00], ["provider", "facebook"], ["uid", "8649455"], ["updated_at", Sat, 24 Sep 2011 15:41:46 UTC +00:00]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 26ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:41:46 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 08:43:47 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:48 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQAhB-s9U2IhGhosLHj9YQpZaUjJavoveDMuZW7B00e-XLGCxm7FhKtLSZukVLU07sPYCNZdZYxzuBFjpKIEJRcrfP90uKnImeyDbOSFmuedPc8Jh9NLpdoXzebmCMghIIxz2VJMD8g3aEFuIwb0PSkneYK_hD5wD9xgYGuM7NHuvA" for 127.0.0.1 at Sat Sep 24 08:43:50 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAhB-s9U2IhGhosLHj9YQpZaUjJavoveDMuZW7B00e-XLGCxm7FhKtLSZukVLU07sPYCNZdZYxzuBFjpKIEJRcrfP90uKnImeyDbOSFmuedPc8Jh9NLpdoXzebmCMghIIxz2VJMD8g3aEFuIwb0PSkneYK_hD5wD9xgYGuM7NHuvA"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1
+Redirected to http://localhost:3000/home
+Completed 302 Found in 11ms
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:51 -0700 2011
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:51 -0700 2011
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:51 -0700 2011
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:52 -0700 2011
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 08:43:52 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQANfAjm6PqQVQPIuvdF5ErKTZVV3S4YIe5N-f_DuWpbQXYKmF0UR4_1x_J_NURKwl6RTj6YGQTrzUKp5mNy0amU5DzII0MqTZS-BvTlCB3CtbHZUXXI0BVOI3jdOX2F4oIBNTjW4e2I_1s7HgRHTIfgTQ9jvKhputoJkYWR34ndRA" for 127.0.0.1 at Sat Sep 24 08:43:53 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQANfAjm6PqQVQPIuvdF5ErKTZVV3S4YIe5N-f_DuWpbQXYKmF0UR4_1x_J_NURKwl6RTj6YGQTrzUKp5mNy0amU5DzII0MqTZS-BvTlCB3CtbHZUXXI0BVOI3jdOX2F4oIBNTjW4e2I_1s7HgRHTIfgTQ9jvKhputoJkYWR34ndRA"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1[0m
+Redirected to http://localhost:3000/home
+Completed 302 Found in 10ms
+
+
+Started GET "/home" for 127.0.0.1 at Sat Sep 24 08:43:54 -0700 2011
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 09:10:30 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 09:10:31 -0700 2011
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 09:10:33 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQB8TokA8KeXPAzOhEfC9cAft1F-NdYhv4fFfjBU33TYV_dbG-_78X_9_rlJj_7sr1xQPIoUYNKgWC_xDpkg5Y1mgWOD47bAZV1QmymSI-v1RD0wqJ-NEllMRGvZWwkao9Z90ycjdT0Z-Sk7eD_BZY4wsxr2gY_nb7wNzq2H9rbslA" for 127.0.0.1 at Sat Sep 24 09:10:33 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQB8TokA8KeXPAzOhEfC9cAft1F-NdYhv4fFfjBU33TYV_dbG-_78X_9_rlJj_7sr1xQPIoUYNKgWC_xDpkg5Y1mgWOD47bAZV1QmymSI-v1RD0wqJ-NEllMRGvZWwkao9Z90ycjdT0Z-Sk7eD_BZY4wsxr2gY_nb7wNzq2H9rbslA"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 15ms
+
+RuntimeError (--- 
+user_info: 
+  name: Jonathan Mumm
+  urls: 
+    Facebook: http://www.facebook.com/jmumm
+    Website: 
+  nickname: jmumm
+  last_name: Mumm
+  image: http://graph.facebook.com/8649455/picture?type=square
+  first_name: Jonathan
+  email: jon@mumm.me
+uid: "8649455"
+credentials: 
+  token: AAADNrhY4EFkBAERjpl5E1wREQJIZAaQjwdYYgphDh39Hh4jv6jtjhNpR7FrrkpOOUAVcDdvhu6CQ14xivM5fA5RN2s6IZD
+extra: 
+  user_hash: 
+    name: Jonathan R Mumm
+    location: 
+      name: San Francisco, California
+      id: "114952118516947"
+    username: jmumm
+    timezone: -7
+    gender: male
+    id: "8649455"
+    last_name: Mumm
+    updated_time: 2011-09-23T03:46:28+0000
+    verified: true
+    locale: en_US
+    hometown: 
+      name: Compton, California
+      id: "108051695889877"
+    link: http://www.facebook.com/jmumm
+    email: jon@mumm.me
+    middle_name: R
+    first_name: Jonathan
+provider: facebook
+):
+  app/controllers/sessions_controller.rb:8:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at Sat Sep 24 09:27:30 -0700 2011
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sat Sep 24 09:27:31 -0700 2011
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Sep 24 09:27:31 -0700 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Sat Sep 24 09:27:32 -0700 2011
+
+
+Started GET "/auth/facebook/callback?code=AQChd0pWes8yYzIs3B6KHhRH6mkC7UoLn0yd1y3GCBR6S_YO6TjrvVBGdqsiv5q1o6eYtRaIYEf903-Zst52_ecZVHBjKpcattNIuHw94iuWi8BMXVzmOm-WFv7jqpZtBFX8xOsjQ5zRvdiS7_vs-kSK9WBjSeqksma_SfIJbSL2dg" for 127.0.0.1 at Sat Sep 24 09:27:32 -0700 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQChd0pWes8yYzIs3B6KHhRH6mkC7UoLn0yd1y3GCBR6S_YO6TjrvVBGdqsiv5q1o6eYtRaIYEf903-Zst52_ecZVHBjKpcattNIuHw94iuWi8BMXVzmOm-WFv7jqpZtBFX8xOsjQ5zRvdiS7_vs-kSK9WBjSeqksma_SfIJbSL2dg"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uid" = '8649455' AND "users"."provider" = 'facebook' LIMIT 1[0m
+Completed 500 Internal Server Error in 14ms
+
+RuntimeError (--- 
+user_info: 
+  name: Jonathan Mumm
+  urls: 
+    Facebook: http://www.facebook.com/jmumm
+    Website: 
+  nickname: jmumm
+  last_name: Mumm
+  image: http://graph.facebook.com/8649455/picture?type=square
+  first_name: Jonathan
+  email: jon@mumm.me
+uid: "8649455"
+credentials: 
+  token: AAADNrhY4EFkBAERjpl5E1wREQJIZAaQjwdYYgphDh39Hh4jv6jtjhNpR7FrrkpOOUAVcDdvhu6CQ14xivM5fA5RN2s6IZD
+extra: 
+  user_hash: 
+    name: Jonathan R Mumm
+    location: 
+      name: San Francisco, California
+      id: "114952118516947"
+    username: jmumm
+    timezone: -7
+    gender: male
+    id: "8649455"
+    last_name: Mumm
+    updated_time: 2011-09-23T03:46:28+0000
+    verified: true
+    locale: en_US
+    hometown: 
+      name: Compton, California
+      id: "108051695889877"
+    link: http://www.facebook.com/jmumm
+    email: jon@mumm.me
+    middle_name: R
+    first_name: Jonathan
+provider: facebook
+):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
