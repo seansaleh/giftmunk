@@ -9,6 +9,7 @@ class RecommendationsController < ApplicationController
     response = fql.query(
       "SELECT uid, name, birthday_date FROM user
       WHERE uid in (SELECT uid2 FROM friend WHERE uid1 = #{session[:uid]})")
+
     puts response.inspect
   end
 
