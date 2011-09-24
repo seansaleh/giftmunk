@@ -20,6 +20,7 @@ end
 gem 'jquery-rails'
 
 gem 'omniauth'
+gem 'fb_graph'
 
 # Use unicorn as the web server
 # gem 'unicorn'

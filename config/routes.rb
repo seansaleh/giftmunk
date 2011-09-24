@@ -2,6 +2,7 @@ Giftmunk::Application.routes.draw do
   root :to => "main#index"
 
   match "/auth/facebook/callback" => "sessions#create"
+  match "/logout" => "sessions#destroy"
 
   get "/recommendations" => "recommendations#index"
 
