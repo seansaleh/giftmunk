@@ -25,6 +25,7 @@ gem 'omniauth'
 gem 'fb_graph'
 
 gem "amazon_product", "~>3.0"
+gem "activerecord-postgresql-adapter"
 
 # Use unicorn as the web server
 # gem 'unicorn'
