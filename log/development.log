@@ -50348,3 +50348,135 @@ Started GET "/sean" for 127.0.0.1 at 2011-09-24 17:32:09 -0700
   Processing by ReferralsController#index as HTML
 Rendered text template (0.0ms)
 Completed 200 OK in 400ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:32:36 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 1112ms
+
+NameError (undefined local variable or method `req_image' for #<ReferralsController:0x5810e20>):
+  app/controllers/referrals_controller.rb:21:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:33:30 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 893ms
+
+NameError (undefined local variable or method `resp_image' for #<ReferralsController:0x5991720>):
+  app/controllers/referrals_controller.rb:22:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:33:45 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 749ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:34:07 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 868ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:34:22 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 643ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:37:12 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1126ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:37:26 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 707ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:37:39 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 968ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:37:51 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 806ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:40:00 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 2199ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:40:08 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1106ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:50:49 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1288ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 19:52:09 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1229ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:02:35 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1089ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:14:39 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 983ms
+
+NameError (undefined local variable or method `product_asid' for #<ReferralsController:0x57e5f08>):
+  app/controllers/referrals_controller.rb:25:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:14:59 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1685ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:16:01 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1232ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:16:17 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 811ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:17:42 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1170ms (Views: 15.6ms | ActiveRecord: 0.0ms)
