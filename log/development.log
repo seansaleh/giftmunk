@@ -50578,3 +50578,91 @@ Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:39:11 -0700
   Processing by ReferralsController#index as HTML
 Rendered text template (0.0ms)
 Completed 200 OK in 1451ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:46:12 -0700
+
+SyntaxError (C:/Users/Mirus/My Dropbox/Code/giftmunk/app/controllers/referrals_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:46:17 -0700
+
+SyntaxError (C:/Users/Mirus/My Dropbox/Code/giftmunk/app/controllers/referrals_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (53.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:47:07 -0700
+
+SyntaxError (C:/Users/Mirus/My Dropbox/Code/giftmunk/app/controllers/referrals_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:48:11 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 1274ms
+
+IOError (not opened for reading):
+  app/controllers/referrals_controller.rb:47:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:50:42 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 988ms
+
+IOError (not opened for reading):
+  app/controllers/referrals_controller.rb:47:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:51:00 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 1097ms
+
+ActionView::MissingTemplate (Missing template referrals/index, application/index with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "C:/Users/Mirus/My Dropbox/Code/giftmunk/app/views"
+):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (10.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:51:37 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 904ms
+
+IOError (not opened for reading):
+  app/controllers/referrals_controller.rb:48:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:53:19 -0700
+  Processing by ReferralsController#index as HTML
+Completed 200 OK in 1041ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 21:54:03 -0700
+  Processing by ReferralsController#index as HTML
+Completed 200 OK in 1014ms (Views: 5.0ms | ActiveRecord: 0.0ms)

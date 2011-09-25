@@ -34,7 +34,22 @@ class ReferralsController < ApplicationController
     title_resp = req.find(product_asin, :response_group => 'ItemAttributes').to_hash
     product_title = title_resp["Items"]["Item"]["ItemAttributes"]["Title"]
     
-    render :text => "Title: "+ product_title + ", ASIN: " + product_asin + ", URL: " + product_url + " , Price: " + product_price + ", Medium URL: " + image_medium_url + " , X: " + image_medium_x + ", Y: " + image_medium_y + ", Large URL: " + image_large_url + " , X: " + image_large_x + ", Y: " + image_large_y
+    response = Hash.new
+   
+    response["URL"] = product_url
+    response["Price"] = product_price
+    response["Title"] = product_title
+    response["MediumImageURL"] = image_medium_url
+    response["MediumImageX"] = image_medium_x
+    response["MediumImageY"] = image_medium_y
+    response["LargeImageURL"] = image_large_url
+    response["LargeImageX"] = image_large_x
+    response["LargeImageY"] = image_large_y
+    
+    
+    render :json => response
+    
+    #render :text => "Title: "+ product_title + ", ASIN: " + product_asin + ", URL: " + product_url + " , Price: " + product_price + ", Medium URL: " + image_medium_url + " , X: " + image_medium_x + ", Y: " + image_medium_y + ", Large URL: " + image_large_url + " , X: " + image_large_x + ", Y: " + image_large_y
 
 end
 
