@@ -44,6 +44,8 @@ loadFriends = (n = 10, cb = ->) ->
   end = displayCount + n
   end = friends.length if end > friends.length
 
+  $(".loading").slideUp('slow')
+
   while (displayCount < end)
     friend = friends[displayCount]
     friend.index = displayCount
