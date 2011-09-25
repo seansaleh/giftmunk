@@ -3,11 +3,9 @@ require 'fql'
 class BirthdaysController < ApplicationController
   def index
     fql = Fql.new(session[:access_token])
-    puts session[:uid]
-    puts session[:access_token]
 
     response = fql.query(
-      "SELECT uid, name, birthday, birthday_date FROM user
+      "SELECT uid, name, birthday, pic_square, birthday_date FROM user
       WHERE uid in (SELECT uid2 FROM friend WHERE uid1 = #{session[:uid]})
       AND strlen(birthday_date) != 0
       ORDER BY birthday desc")
