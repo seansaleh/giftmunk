@@ -5,7 +5,7 @@ class BirthdaysController < ApplicationController
     fql = Fql.new(session[:access_token])
 
     response = fql.query(
-      "SELECT uid, name, birthday, pic_square, birthday_date FROM user
+      "SELECT uid, movies, books, name, birthday, pic_square, birthday_date FROM user
       WHERE uid in (SELECT uid2 FROM friend WHERE uid1 = #{session[:uid]})
       AND strlen(birthday_date) != 0
       ORDER BY birthday desc")

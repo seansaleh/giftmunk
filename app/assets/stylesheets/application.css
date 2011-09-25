@@ -10,6 +10,12 @@
   margin:0px;
   padding:0px;
 }
+a{
+  font-size:10px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#fff;
+}
 ul {
   list-style:none;
 }
@@ -109,6 +115,8 @@ body {
   margin-top:-10px;
   line-height:20px;
   text-shadow:#426909 0px 0px 5px;
+  display:block;
+  margin-top:3px;
 }
 .friend {
   width:120px;
@@ -116,6 +124,8 @@ body {
   float:left;
   font-size:12px;
   font-weight:bold;
+  height:97px;
+  overflow:hidden;
 }
 .friend span {
   line-height:17px;
@@ -154,7 +164,24 @@ body {
   border-radius:10px;
   height:75px;
   width:75px;
-  overflow:hidden;
+}
+
+.itemImage {
+  position:relative;
+}
+
+.itemHover {
+  position:absolute;
+  z-index:200;
+  width:180px;
+  background:rgba(0,0,0,.75);
+  padding:10px;
+  top:-10px;
+  left:4px;
+  border-radius:8px;
+  font-weight:bold;
+  font-size:10pt;
+  display:none;
 }
 
 .items img {
@@ -193,4 +220,15 @@ body {
   position:relative;
   bottom:-5px;
   margin-bottom:20px;
+}
+.logoLanding {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100%;
+  margin-top:50px;
+}
+.connectFacebook {
+  width:100%;
+  text-align:center;
 }

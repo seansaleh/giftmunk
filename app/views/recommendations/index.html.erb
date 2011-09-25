@@ -18,13 +18,18 @@
 </script>
 
 <script id="itemTemplate" type="text/x-jquery-tmpl">
-  <li>
-    <div class="itemImage">
-      <img class="itemImageIMG" src="${image_url}">
-    </div>
-    <div class="itemPrice">
-      <span>$${price}</span>
-    </div>
+  <li class="item${index}">
+    <a href=${url} target="_blank">
+      <div class="itemImage">
+        <span class="itemHover">
+          ${name}
+        </span>
+          <img class="itemImageIMG" src="${image_url}">
+      </div>
+      <div class="itemPrice">
+        <span>$${price}</span>
+      </div>
+    </a>
   </li>
 </script>
 
@@ -40,7 +45,7 @@
         fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <div class="fb-like" data-href="giftmonk.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+    <div class="fb-like" data-href="giftmonk.co" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
   </div>
 </div>
 <div style="clear:both"></div>
