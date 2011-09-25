@@ -1,5 +1,13 @@
 <script id="birthdayTemplate" type="text/x-jquery-tmpl">
-  <ul>${name} - ${birthday}</ul>
+  <li id="birthday-${index}">${name} - ${birthday}</li>
+</script>
+
+<script id="recommendationTemplate" type="text/x-jquery-tmpl">
+  <div>
+    <h3>${name}</h3>
+    <img src="${image_url}" alt="${name}" />
+    <span>${price}</span>
+  </div>
 </script>
 
 <ul id="birthdayList">

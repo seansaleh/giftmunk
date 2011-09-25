@@ -18,6 +18,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-tmpl-rails'
+gem 'rails-backbone'
 
 gem 'omniauth'
 gem 'fb_graph'

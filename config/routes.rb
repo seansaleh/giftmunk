@@ -6,6 +6,9 @@ Giftmunk::Application.routes.draw do
 
   get "/recommendations" => "recommendations#index"
 
+  get "/birthdays" => "birthdays#index"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

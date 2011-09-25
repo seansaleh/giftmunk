@@ -26,7 +26,15 @@ class BirthdaysController < ApplicationController
       user["days_until"] = user["birthday_date"] - Date.today
     end
 
+    #if params[:month] then
+    #  response.delete_if { |user| (user["birthday_date"].month != params[:month].to_i) && (user["birthday_date"].year == Date.today.year) }
+    #end
+
     response.sort! { |a, b| a["birthday_date"] <=> b["birthday_date"] }
+
+    if params[:max] then
+      response = response.slice(0, params[:max].to_i) 
+    end
 
     render :json => response
   end
