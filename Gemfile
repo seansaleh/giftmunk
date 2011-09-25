@@ -17,6 +17,7 @@ group :assets do
   gem 'uglifier'
 end
 
+
 gem 'jquery-rails'
 gem 'jquery-tmpl-rails'
 gem 'rails-backbone'
