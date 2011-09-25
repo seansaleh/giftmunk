@@ -8,7 +8,7 @@ Giftmunk::Application.routes.draw do
 
   get "/birthdays" => "birthdays#index"
 
-
+  get "sean" => "referrals#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
