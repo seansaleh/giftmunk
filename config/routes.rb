@@ -5,7 +5,7 @@ Giftmunk::Application.routes.draw do
   match "/logout" => "sessions#destroy"
 
   get "/recommendations" => "recommendations#index"
-
+  get "sean" => "referrals#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
