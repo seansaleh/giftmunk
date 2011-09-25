@@ -16,9 +16,7 @@ group :assets do
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
 end
-group :production do
-gem 'therubyracer-heroku', '0.8.1.pre3'
-end
+
 
 gem 'jquery-rails'
 gem 'jquery-tmpl-rails'
