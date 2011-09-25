@@ -4,4 +4,195 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
-*/
+ */
+
+*{
+  margin:0px;
+  padding:0px;
+}
+ul {
+  list-style:none;
+}
+
+body {
+  background-image:url('/images/GiftMunk.jpg');
+  background-position:center;
+  background-size:100%;
+  font-size:15px;
+  color:#fff;
+  font-family:helvetica neue, helvetica, arial, sans-serif;
+  text-shadow: 0px 1px 1px #405012;
+
+}
+.header {
+  width:100%;
+  height:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#fff;
+  box-shadow:0px 1px 5px #405012;
+}
+.headerContainer {
+  width:730px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.logo{
+  float:left;
+}
+.likes {
+  float:right;
+}
+.bodyContainer {
+  width:725px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow:0px 5px 10px #405012;
+}
+.bodyHeader {
+  margin-top:20px;
+  border-radius:10px 10px 0px 0px;
+  position:relative;
+  height:25px;
+  padding-top:5px;
+  padding-bottom:10px;
+  z-index: -1000;
+  background-color:#fff;
+  color:#ccc;
+  text-align:center;
+  text-shadow:none;
+  font-weight:bold;
+  line-height:30px;
+    }
+    .bodyHeader img {
+      position:relative;
+      top:5px;
+      margin-right:10px;
+}
+.listContainer{
+  ;
+}
+.listItem{
+  height:95px;
+  border-bottom:1px solid #66842b;
+  border-top:1px solid #b4ca71;
+  border-left:2px solid #b4ca71;
+  border-right:2px solid #b4ca71;
+  box-shadow:inset 0px -1px 2px #779f2e, inset 0px 2px 2px #d8ed8a;
+}
+.date {
+  width:80px;
+  float:left;
+  background-color:#879d20;
+  height:88px;
+  margin-right:20px;
+  text-align:center;
+  padding-top:7px;
+  box-shadow:inset 0px -1px 2px #779f2e, inset 0px 2px 2px #d8ed8a;
+  box-shadow:inset 0px 0px 10px #768a16, inset 0px 2px 2px #d8ed8a;
+
+
+}
+.logo {
+  position:relative;
+  top:-7px;
+}
+.month {
+  clear:both;
+  font-size:30px;
+  font-weight:bold;
+  color:#d0ef41;
+  padding-top:20px;
+  text-shadow:#426909 0px 0px 5px;
+}
+.day {
+  clear:both;
+  font-size:30px;
+  font-weight:bold;
+  margin-top:-10px;
+  line-height:20px;
+  text-shadow:#426909 0px 0px 5px;
+}
+.friend {
+  width:100px;
+  float:left;
+  font-size:12px;
+  font-weight:bold;
+  margin-top:px;
+}
+.friend span {
+  line-height:17px;
+}
+.glint {
+  width:75px;
+  height:75px;
+  border-radius:10px;
+  background-image:url('/images/glint.png');
+}
+.friendImageContainer IMG{
+  width:60px;
+  height:60px;
+  position:absolute;
+  overflow:hidden;
+  box-shadow:0px 0px 15px #000;
+
+}
+.friendImageContainer{
+  width:60px;
+  height:60px;
+  border:1px solid #fff;
+  position:relative;
+  z-index: -100;
+  top:10px;
+  border-radius:20px;
+  left:10px;
+}
+.items li {
+  float:left;
+  margin-right:20px;
+  margin-top:5px;
+  border:3px solid #dfed96;
+  box-shadow:#95a546 0px 0px 5px;
+  border-radius:10px;
+  height:75px;
+  width:75px;
+  overflow:hidden;
+}
+
+.items img {
+  width:75px;
+  height:75px;
+}
+.itemPrice span{
+  margin-top:-30px;
+  background-image:url('/images/black.png');
+  width:120px;
+  height:30px;
+  padding-left:5px;
+  padding-top:2px;
+  background-repeat: no-repeat;
+  position:relative;
+  right:-20px;
+  bottom:-5px;
+  display:block;
+  font-size:12px;
+  font-weight:bold;
+}
+.fb-like {
+  position:absolute;
+  right:-330px;
+}
+.footer{
+  width:100%;
+  text-align:center;
+  margin-top:10px;
+  font-size:12px;
+}
+.bottomoflist {
+  height:30px;
+  background-color:#fff;
+  border-radius:0px 0px 10px 10px;
+  position:relative;
+  bottom:-5px;
+  margin-bottom:20px;
+}

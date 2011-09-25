@@ -1,14 +1,63 @@
-<script id="birthdayTemplate" type="text/x-jquery-tmpl">
-  <li id="birthday-${index}">${name} - ${birthday}</li>
+<script id="friendTemplate" type="text/x-jquery-tmpl">
+  <li class="listItem friend${index}">
+    <div class="date">
+      <span class="month">${month}</span>
+      <span class="day">${day}</span>
+    </div>
+    <div class="friend">
+      <div class="glint">
+        <div class="friendImageContainer">
+          <img class="friendImg" src="${pic_square}">
+        </div>
+      </div>
+      <span>${name}</span>
+    </div>
+    <ul class="items">
+    </ul>
+  </li>
 </script>
 
-<script id="recommendationTemplate" type="text/x-jquery-tmpl">
-  <div>
-    <h3>${name}</h3>
-    <img src="${image_url}" alt="${name}" />
-    <span>${price}</span>
+<script id="itemTemplate" type="text/x-jquery-tmpl">
+  <li>
+    <div class="itemImage">
+      <img class="itemImageIMG" src="${image_url}">
+    </div>
+    <div class="itemPrice">
+      <span>$${price}</span>
+    </div>
+  </li>
+</script>
+
+<div class="header"> 
+  <div class="headerContainer"> 
+    <div class="logo"> 
+      <img src="images/giftlogo.png"> 
+    </div> 
+    <div class="likes">
+      <div id="fb-root"></div> 
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="fb-like" data-href="giftmonk.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
   </div>
-</script>
+</div>
+<div style="clear:both"></div>
+<div class="bottom">
+  <div class="bodyContainer">
+    <div class="bodyHeader">
+      <img class="present-top" src="images/present.png">
+      <span><%=h @user.first_name %>, These are your friend's birthdays for September</span>
+      <div class="likeBody"></div>
+    </div>
+    <div class="listContainer">
+      <ul>
+      </ul>
+    </div>
+    <div class="bottomoflist"></div>
+  </div>
 
-<ul id="birthdayList">
-</ul>
+  <div class="footer">Copyright 2011. GiftMonk All rights reserved</div>
+</div>
+</div>

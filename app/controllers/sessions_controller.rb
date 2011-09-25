@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
     session[:user_id] = user.id
     session[:uid] = user.uid
     session[:access_token] = auth["credentials"]["token"]
+    puts user
     redirect_to "/recommendations"
   end
 
