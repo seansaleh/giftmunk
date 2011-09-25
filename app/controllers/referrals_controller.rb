@@ -4,7 +4,7 @@ class ReferralsController < ApplicationController
   
   def index
 # replace search_term with your variable from hunch
- search_term = 'pencil'
+ search_term = 'coke'
     req = AmazonProduct["us"]
   
     
@@ -31,7 +31,10 @@ class ReferralsController < ApplicationController
     image_large_x = image_resp["Items"]["Item"]["LargeImage"]["Width"]["__content__"]
     image_large_y = image_resp["Items"]["Item"]["LargeImage"]["Height"]["__content__"]
     
-    render :text => "ASIN: " + product_asin + ", URL: " + product_url + " , Price: " + product_price + ", Medium URL: " + image_medium_url + " , X: " + image_medium_x + ", Y: " + image_medium_y + ", Large URL: " + image_large_url + " , X: " + image_large_x + ", Y: " + image_large_y
+    title_resp = req.find(product_asin, :response_group => 'ItemAttributes').to_hash
+    product_title = title_resp["Items"]["Item"]["ItemAttributes"]["Title"]
+    
+    render :text => "Title: "+ product_title + ", ASIN: " + product_asin + ", URL: " + product_url + " , Price: " + product_price + ", Medium URL: " + image_medium_url + " , X: " + image_medium_x + ", Y: " + image_medium_y + ", Large URL: " + image_large_url + " , X: " + image_large_x + ", Y: " + image_large_y
 
 end
 

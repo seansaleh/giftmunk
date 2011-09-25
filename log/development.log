@@ -50480,3 +50480,101 @@ Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:17:42 -0700
   Processing by ReferralsController#index as HTML
 Rendered text template (0.0ms)
 Completed 200 OK in 1170ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:21:17 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1466ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:21:35 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1202ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:22:28 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 390ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/referrals_controller.rb:22:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:23:08 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 265ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/referrals_controller.rb:22:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:23:25 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 499ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/referrals_controller.rb:22:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:23:30 -0700
+  Processing by ReferralsController#index as HTML
+Completed 500 Internal Server Error in 1170ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/referrals_controller.rb:27:in `index'
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:23:35 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 702ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:35:00 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1888ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:36:19 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 952ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:39:01 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1500ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sean" for 127.0.0.1 at 2011-09-24 20:39:11 -0700
+  Processing by ReferralsController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1451ms (Views: 0.0ms | ActiveRecord: 0.0ms)
