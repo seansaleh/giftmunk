@@ -24,6 +24,7 @@ gem 'jquery-tmpl-rails'
 gem 'rails-backbone'
 
 gem 'omniauth'
+gem 'thin'
 
 gem "amazon_product", "~>3.0"
 gem 'pg'
