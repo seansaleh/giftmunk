@@ -27,4 +27,8 @@ Giftmunk::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Facebook settings
+  FACEBOOK_APP_ID = '115102068596671'
+  FACEBOOK_APP_SECRET = '643212815d9d8acb8282189209e8e594'
 end

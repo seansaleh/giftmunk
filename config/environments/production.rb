@@ -57,4 +57,8 @@ Giftmunk::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  # Facebook settings
+  FACEBOOK_APP_ID = '152517954842733'
+  FACEBOOK_APP_SECRET = '16eca8b8c56f8d9071e8f568f8407dea'
 end
