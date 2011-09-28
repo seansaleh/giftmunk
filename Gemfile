@@ -5,9 +5,10 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
 
-gem 'json'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,12 +19,12 @@ group :assets do
 end
 
 
+gem 'json'
 gem 'jquery-rails'
 gem 'jquery-tmpl-rails'
 gem 'rails-backbone'
 
 gem 'omniauth'
-gem 'fb_graph'
 
 gem "amazon_product", "~>3.0"
 gem 'pg'
