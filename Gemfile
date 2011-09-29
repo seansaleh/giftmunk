@@ -26,9 +26,11 @@ gem 'rails-backbone'
 gem 'omniauth'
 gem 'thin'
 gem 'fb_graph'
-
 gem "amazon_product", "~>3.0"
-gem 'pg'
+
+group :production do
+  gem 'pg'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
